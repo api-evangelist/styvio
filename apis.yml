@@ -1,0 +1,32 @@
+aid: styvio
+name: Styvio
+description: "Realtime and historical stock data and current stock sentiment"
+url: https://www.Styvio.com
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Finance"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Finance
+  - Public APIs
+apis:
+  - name: Styvio
+    description: "Realtime and historical stock data and current stock sentiment"
+    humanURL: https://www.Styvio.com
+    baseURL: https://www.Styvio.com
+    tags:
+      - Finance
+    properties:
+      - type: Documentation
+        url: https://www.Styvio.com
+common:
+  - type: Website
+    url: https://www.Styvio.com
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
