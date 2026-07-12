@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://www.Styvio.com
 common:
+  - type: DomainSecurity
+    url: security/styvio-domain-security.yml
   - type: Website
     url: https://www.Styvio.com
   - type: PublicAPIsListing
