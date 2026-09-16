@@ -19,42 +19,45 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://www.Styvio.com
+    status: 302
+    note: declared website redirects to hugedomains.com — a domain sales/parking service, so the domain
+      has lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://www.Styvio.com', status: 302, note: 'declared website redirects to hugedomains.com — a domain sales/parking service, so the domain has lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/styvio.png
 name: Styvio
-description: "Realtime and historical stock data and current stock sentiment"
+description: Realtime and historical stock data and current stock sentiment
 url: https://www.Styvio.com
 specificationVersion: '0.23'
 created: '2026-05-28'
-modified: '2026-05-28'
+modified: '2026-09-15'
 x-source: public-apis/public-apis
-x-category: "Finance"
+x-category: Finance
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Finance
-  - Public APIs
+- Finance
+- Public APIs
+- Defunct
 apis:
-  - name: Styvio
-    description: "Realtime and historical stock data and current stock sentiment"
-    humanURL: https://www.Styvio.com
-    baseURL: https://www.Styvio.com
-    tags:
-      - Finance
-    properties:
-      - type: Documentation
-        url: https://www.Styvio.com
-common:
-  - type: DomainSecurity
-    url: security/styvio-domain-security.yml
-  - type: Website
+- name: Styvio
+  description: Realtime and historical stock data and current stock sentiment
+  humanURL: https://www.Styvio.com
+  baseURL: https://www.Styvio.com
+  tags:
+  - Finance
+  properties:
+  - type: Documentation
     url: https://www.Styvio.com
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+common:
+- type: DomainSecurity
+  url: security/styvio-domain-security.yml
+- type: Website
+  url: https://www.Styvio.com
+- type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
