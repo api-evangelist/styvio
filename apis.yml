@@ -45,7 +45,6 @@ apis:
 - name: Styvio
   description: Realtime and historical stock data and current stock sentiment
   humanURL: https://www.Styvio.com
-  baseURL: https://www.Styvio.com
   tags:
   - Finance
   properties:
